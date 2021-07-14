@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/timoengelvaart/Desktop/Kim-Gatsby/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/timoengelvaart/Documents/Websites/Kim-Gatsby/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/timoengelvaart/Desktop/Kim-Gatsby/gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/timoengelvaart/Documents/Websites/Kim-Gatsby/gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/timoengelvaart/Desktop/Kim-Gatsby/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      plugin: require('/Users/timoengelvaart/Documents/Websites/Kim-Gatsby/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
       options: {"plugins":[],"projectId":"rbhcbzxq","dataset":"production","watchMode":true,"token":"sk3SceQ1uiqE4xBHWDscyd2wdVabFT9MGAJbU9fm97169QV8wZHmf5D4l2X76itur27sURJCVebBh0cZ93D0ri5VmCQZftQZhPEoJ6sqgFW9Xsv9r3ZaZrXTEdwHZM39RKfh1LLaZYtBA3lsU5TRKAOeltlhHdrPu3WWz7qw2eiVtNA02JLi","overlayDrafts":true},
     },{
-      plugin: require('/Users/timoengelvaart/Desktop/Kim-Gatsby/gatsby/gatsby-ssr'),
+      plugin: require('/Users/timoengelvaart/Documents/Websites/Kim-Gatsby/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

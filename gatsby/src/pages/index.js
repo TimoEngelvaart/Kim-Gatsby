@@ -1,7 +1,7 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-
-import styled from 'styled-components';
+import React from "react";
+import { graphql } from "gatsby";
+import styled from "styled-components";
+import Icon from "./../assets/images/NieuwPatroonKort.svg";
 
 // export const query = graphql`
 //   query IndexPageQuery {
@@ -42,18 +42,16 @@ const HomeStyles = styled.div`
     }
 
     &_svg {
-      top: 216px;
-      object-fit: cover;
-      width: 96%;
-      object-position: 100% 9%;
-      height: 63%;
+      bottom: 0;
       position: absolute;
       opacity: 0.07;
-      z-index: -1;
+      height: 549px;
+      top: 250px;
+      right: 0px;
     }
 
     &__background {
-      background-image: url('./../../images/Patroon3.svg');
+      background-image: url("./../../images/Patroon3.svg");
       width: 100%;
       height: 100%;
       position: absolute;
@@ -64,14 +62,14 @@ const HomeStyles = styled.div`
     &__header {
       font-size: 1.5rem;
       margin-top: 3rem;
-      font-family: 'FuturaHeavy', sans-serif;
+      font-family: "FuturaHeavy", sans-serif;
       order: 0;
       font-weight: normal;
     }
 
     &__tekst {
       margin-top: 1rem;
-      font-family: 'Futuramediumbt', sans-serif;
+      font-family: "Futuramediumbt", sans-serif;
     }
   }
 
@@ -199,9 +197,15 @@ export default function HomePage({ data }) {
   console.log(site.description);
   return (
     <HomeStyles>
+      <Icon className="mainContent_svg" />
       <div className="grid-top">
         <div className="grid">
           <div className="mainContent">
+            <img
+              className="mainContent_svg"
+              src="./../assets/images/NieuwPatroonKort.svg"
+              alt="Logo"
+            />
             <h2 className="mainContent__header">{site.title}</h2>
             <p className="mainContent__tekst">{site.description}</p>
             <div className="kunst">
